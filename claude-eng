@@ -1,10 +1,23 @@
 #!/bin/bash
-# Claude CLI with engineering best practices system prompt
+# Claude CLI with engineering best practices system prompt and .env loading
 
-# Find the system prompt file
+# Find the script directory
 SCRIPT_DIR="$(dirname "${BASH_SOURCE[0]}")"
 SYSTEM_PROMPT_FILE="${SCRIPT_DIR}/.claude-system-prompt.md"
+ENV_FILE="${SCRIPT_DIR}/.env"
 
+# Load .env file if it exists
+if [ -f "$ENV_FILE" ]; then
+    echo "Loading environment variables from .env file..."
+    set -a  # automatically export all variables
+    source "$ENV_FILE"
+    set +a  # stop automatically exporting
+else
+    echo "Warning: .env file not found at $ENV_FILE"
+    echo "LinkedIn automation features may not work without proper credentials."
+fi
+
+# Check for system prompt file
 if [ ! -f "$SYSTEM_PROMPT_FILE" ]; then
     echo "Error: System prompt file not found at $SYSTEM_PROMPT_FILE"
     exit 1

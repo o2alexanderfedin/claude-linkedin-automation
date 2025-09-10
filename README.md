@@ -128,7 +128,11 @@ npm install
 
 3. Configure MCP server (already included in `.mcp.json`)
 
-4. Update LinkedIn credentials in `.claude/agents/linkedin-login.md` (if needed)
+4. Configure LinkedIn credentials:
+```bash
+cp .env.template .env
+# Edit .env file with your LinkedIn credentials
+```
 
 ## 📈 Future Roadmap
 
@@ -146,12 +150,18 @@ This foundation enables expansion to complete job application automation:
 - [ ] **Market Analysis** - Salary benchmarking and trend analysis
 - [ ] **Skills Gap Analysis** - Learning recommendations based on target roles
 
-## 🔐 Permission Chain Validation
+## 🔐 Security & Permission Chain
 
-This project demonstrates sophisticated permission delegation:
+This project demonstrates sophisticated permission delegation with secure credential management:
 ```
 User → Slash Command → Task Tool → Claude Agent → MCP Server → Browser
 ```
+
+### Security Features
+- ✅ **Environment Variables** - LinkedIn credentials stored securely in `.env` (git-ignored)
+- ✅ **Template Configuration** - `.env.template` provides setup guidance
+- ✅ **Zero Hardcoding** - No credentials embedded in source code
+- ✅ **Git Security** - Credentials excluded from version control
 
 ### Validated Integrations
 - ✅ **Claude Code** - Slash commands and agent invocation

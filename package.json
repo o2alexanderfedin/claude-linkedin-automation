@@ -1,0 +1,16 @@
+{
+  "name": "investigate-mcp-permissions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/mcp": "^0.0.37",
+    "playwright": "^1.56.0-alpha-2025-09-06"
+  }
+}

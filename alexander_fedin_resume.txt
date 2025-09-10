@@ -1,0 +1,39 @@
+ALEXANDER FEDIN
+Senior Software Engineer & AI Specialist
+Email: jobs4alex@allconnectix.com
+Phone: +1 425-351-1652
+LinkedIn: https://www.linkedin.com/in/alexanderfedin
+
+EXPERIENCE
+
+Principal Software Engineer | Allconnectix | 2020 - Present
+• Lead architect for distributed systems and cloud infrastructure
+• 24+ years of software engineering experience across enterprise and startup environments
+• Expert in Go, Kubernetes, Docker, and cloud-native technologies
+• Built and maintained production systems serving millions of users
+• Specialized in AI/ML integration and microservices architecture
+
+Senior Software Engineer | Various Companies | 2000 - 2020
+• Full-stack development with modern web technologies (React, Node.js, TypeScript)
+• Database design and optimization (PostgreSQL, distributed databases)
+• DevOps and infrastructure automation
+• Team leadership and mentoring
+
+TECHNICAL SKILLS
+• Languages: Go, Python, JavaScript/TypeScript, Java, C++
+• Frontend: React, Next.js, HTML5, CSS3, modern build systems
+• Backend: Node.js, PostgreSQL, REST APIs, GraphQL
+• Cloud: AWS, GCP, Kubernetes, Docker, serverless architectures
+• AI/ML: Machine learning integration, AI-powered tools, neural networks
+• Systems: Distributed systems, microservices, production environments
+
+EDUCATION
+Master's Degree in Computer Science
+Bachelor's Degree in Software Engineering
+
+ADDITIONAL INFORMATION
+• U.S. Citizen - Authorized to work in the United States
+• Available for relocation and in-office work
+• 15+ years Python experience, 3+ years with agentic systems
+• Passionate about building scalable, high-performance systems
+• Experience with generative AI and creative tooling applications

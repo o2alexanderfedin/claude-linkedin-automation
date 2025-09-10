@@ -6,7 +6,7 @@ allowed-tools: ["*"]
 
 Complete LinkedIn job search automation workflow combining authentication, resume analysis, and intelligent job searching.
 
-## Three-Step Automated Workflow
+## Four-Step Automated Workflow
 
 **Step 1: LinkedIn Authentication**
 Use the Task tool to invoke the `linkedin-login` agent which will:
@@ -33,6 +33,15 @@ Use the Task tool to invoke the `linkedin-job-search` agent which will:
 - Document search results with screenshots
 - Generate comprehensive job matching recommendations
 
+**Step 4: Job URL Collection**
+Use the Task tool to invoke the `linkedin-job-collector` agent which will:
+- Scroll through job listings to load all items (handles lazy loading)
+- Extract job URLs from all loaded job cards using robust selectors
+- Navigate through pagination to collect from all result pages
+- Save collected URLs to `sessions/<today-date>/jobs.txt` (one URL per line)
+- Remove duplicates and append to daily collection file
+- Report total number of URLs collected
+
 ## Arguments
 - `$1` - Resume file path (required)
 - `$2` - Browser mode: "visible" (default) or "headless"
@@ -41,7 +50,8 @@ Use the Task tool to invoke the `linkedin-job-search` agent which will:
 1. **LinkedIn Authentication**: Smart login with session detection
 2. **Resume Processing**: Cached analysis with job matching data extraction
 3. **Job Search Execution**: Multi-strategy search with fresh job filtering
-4. **Results Integration**: Structured output with actionable recommendations
+4. **URL Collection**: Systematic harvesting of job URLs from all result pages
+5. **Results Integration**: Structured output with actionable recommendations and URL collection
 
 ## Expected Output
 
@@ -63,7 +73,14 @@ Use the Task tool to invoke the `linkedin-job-search` agent which will:
 - Company insights and salary data
 - Recommended next steps and application priorities
 
+**URL Collection:**
+- Complete job URL list saved to `sessions/<today-date>/jobs.txt`
+- Deduplicated URLs from all search result pages
+- Ready for batch processing and application tracking
+- Daily collection file supports multiple search sessions
+
 This demonstrates the complete multi-agent permission chain:
 **Slash Command → Task Tool → LinkedIn Login Agent → Playwright MCP Server**
                 **→ Task Tool → Resume Analyzer Agent → File System + Caching**
                 **→ Task Tool → Job Search Agent → LinkedIn Jobs Automation**
+                **→ General-Purpose Agent → LinkedIn Job Collector → URL Harvesting + File Storage**

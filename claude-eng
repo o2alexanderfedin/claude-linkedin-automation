@@ -1,0 +1,18 @@
+#!/bin/bash
+# Claude CLI with engineering best practices system prompt
+
+# Find the system prompt file
+SCRIPT_DIR="$(dirname "${BASH_SOURCE[0]}")"
+SYSTEM_PROMPT_FILE="${SCRIPT_DIR}/.claude-system-prompt.md"
+
+if [ ! -f "$SYSTEM_PROMPT_FILE" ]; then
+    echo "Error: System prompt file not found at $SYSTEM_PROMPT_FILE"
+    exit 1
+fi
+
+# Execute claude with the system prompt and required permissions
+exec ~/.claude/local/claude --append-system-prompt "$(cat "$SYSTEM_PROMPT_FILE")" \
+    --allowedTools "*" \
+    --dangerously-skip-permissions \
+    --permission-mode "bypassPermissions" \
+    "$@"

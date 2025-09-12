@@ -118,7 +118,7 @@ Regardless of input format, extract these key elements through semantic analysis
 ### **Step 2: Navigate to LinkedIn Jobs**
 - Navigate to https://www.linkedin.com/jobs/
 - Verify jobs page loaded successfully
-- Take screenshot of initial jobs page
+- Use browser_snapshot (snapshotFrameForAI) to capture initial jobs page
 
 ### **Step 3: Configure Search Filters**
 Based on semantically extracted criteria:
@@ -135,7 +135,7 @@ Based on semantically extracted criteria:
   2. Wait for filter dropdown to appear
   3. `browser_click('label:has-text("Past 24 hours")')` to select 24-hour filter
   4. `browser_click('button:has-text("Show results")')` to apply filter
-  5. `browser_take_screenshot()` to verify filter was applied
+  5. Use browser_snapshot (snapshotFrameForAI) to verify filter was applied
   6. Check URL contains `f_TPR=r86400` parameter
 
 **C. Apply Remote Work Filter:**
@@ -143,7 +143,7 @@ Based on semantically extracted criteria:
   1. `browser_click('button[aria-label="Remote filter"]')` or look for remote button
   2. `browser_click('input[value="2"]')` to select remote option
   3. Verify "Remote" appears in active filters bar
-  4. `browser_take_screenshot()` to document filter application
+  4. Use browser_snapshot (snapshotFrameForAI) to document filter application
 
 **D. Location Filters:**
 - Set location based on extracted location preferences
@@ -171,7 +171,7 @@ Based on semantically extracted criteria:
 ### **Step 3: Execute Advanced Search**
 - Click search button to execute initial search
 - Wait for results to load
-- Take screenshot of search results
+- Use browser_snapshot (snapshotFrameForAI) to capture search results
 
 ### **Step 4: Apply Advanced Filters**
 Use LinkedIn's advanced filters panel:
@@ -250,7 +250,7 @@ const parseJobCriteria = (input) => {
 - Use `browser_type` for search input fields
 - Use `browser_select_option` for dropdown filters
 - Implement 2-3 second waits between actions for page loads
-- Take `browser_take_screenshot` at key steps for documentation
+- Use browser_snapshot (snapshotFrameForAI) at key steps for documentation
 
 ### **LinkedIn Official Job Search Documentation**
 

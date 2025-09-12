@@ -1,0 +1,35 @@
+2025-09-11T16:00:00Z|https://www.linkedin.com/jobs/view/4294723584/|ATTEMPTED|Oracle|Principal Software Engineer - AI Infra Compute|Browser response size exceeded limits, unable to complete application
+
+=== JOB ANALYSIS ===
+Job Title: Principal Software Engineer - AI Infra Compute
+Company: Oracle
+Location: Seattle, WA
+Salary Range: $96.8K/yr - $223.4K/yr
+Posted: 5 days ago
+Applicants: 3 people clicked apply
+Job ID: 4294723584
+
+=== MATCH ANALYSIS ===
+✅ Title Match: Principal Software Engineer (perfect match for Alexander's current role)
+✅ Location Match: Seattle, WA (perfect match for Alexander's preferred location)
+✅ Domain Match: AI Infrastructure (aligns with Alexander's AI/ML expertise and cloud architecture background)
+⚠️ Salary Range: Below Alexander's $250K+ target, but Oracle typically offers significant equity upside
+✅ Experience Level: Principal level (matches Alexander's 24 years experience)
+✅ Industry: Technology/Cloud (matches Alexander's background at Waymo, Microsoft, etc.)
+
+=== TECHNICAL MATCH ===
+- AI/ML Infrastructure: Aligns with Alexander's current AI/ML focus and agentic AI work
+- Cloud Computing: Matches Alexander's AWS/Azure experience
+- Distributed Systems: Core strength from Alexander's background
+- Performance Optimization: Alexander has consistent track record of 15-60% improvements
+- CUDA/GPU Computing: Alexander has CUDA experience from NASA drone telemetry work
+
+=== APPLICATION STATUS ===
+Status: FAILED - Technical Issue
+Issue: Browser MCP tools returning responses exceeding 25,000 token limit
+Identified: LinkedIn Easy Apply button detected but unable to interact
+Next Steps: Requires retry with different browser approach or manual application
+
+=== RECOMMENDATION ===
+HIGH PRIORITY: This is an excellent match for Alexander's profile. Oracle AI Infrastructure team would benefit from his experience at Waymo, NASA, and Tesla. The Principal level and Seattle location are perfect matches. Despite salary being below target, Oracle's equity potential and AI infrastructure growth make this worth pursuing manually if automated application fails.2025-09-11T16:37:14Z|https://www.linkedin.com/jobs/view/4298466387/|STARTING|Microsoft|Principal Software Engineer
+2025-09-11T16:38:49Z|https://www.linkedin.com/jobs/view/4298466387/|FAILED|Microsoft|Principal Software Engineer|Technical Issue: Browser MCP response size limit exceeded

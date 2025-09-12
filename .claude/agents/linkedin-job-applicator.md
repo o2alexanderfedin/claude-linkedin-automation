@@ -180,7 +180,7 @@ JOB CONTEXT EXTRACTION:
 ### Step 2: Job URL Navigation and Analysis
 **Browser Automation Steps:**
 1. **Navigate to Job URL**: Open the provided LinkedIn job posting
-2. **Take Initial Screenshot**: Document the job posting
+2. **Take Initial Snapshot**: Use browser_snapshot (snapshotFrameForAI) to document the job posting
 3. **Extract Job Information**: Company, title, location, job ID
 4. **Identify Application Method**: Easy Apply vs External link
 5. **Check Prerequisites**: Login status, profile completeness
@@ -289,7 +289,7 @@ APPLICATION LOGGING:
     - Company name and job title
     - Any error messages or completion confirmations
   
-  SAVE screenshots at key points:
+  SAVE snapshots at key points using browser_snapshot (snapshotFrameForAI):
     - Initial job posting
     - Application form completion
     - Success confirmation or error states

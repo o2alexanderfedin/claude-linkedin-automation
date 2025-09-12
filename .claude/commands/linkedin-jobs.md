@@ -27,7 +27,7 @@ Use the Task tool to invoke the `linkedin-login` agent which will:
 - Navigate to LinkedIn login page if needed
 - Authenticate with embedded credentials 
 - Verify successful login and session
-- Document process with screenshots
+- Document process with browser_snapshot (snapshotFrameForAI)
 
 **Step 2: Resume Analysis with Intelligent Caching**
 Use the Task tool to invoke the `resume-analyzer` agent which will:
@@ -43,7 +43,7 @@ Use the Task tool to invoke the `linkedin-job-search` agent which will:
 - Navigate to LinkedIn Jobs page
 - Apply smart filters (location, remote, experience, **Last 24 hours**)
 - Execute multiple search variations with Boolean operators
-- Document search results with screenshots
+- Document search results with browser_snapshot (snapshotFrameForAI)
 - Generate comprehensive job matching recommendations
 
 **Step 4: Job URL Collection**
@@ -87,7 +87,7 @@ Process each collected job URL individually:
 **LinkedIn Session:**
 - Authenticated user profile verification
 - Active session with full job search access
-- Screenshot documentation
+- Snapshot documentation using browser_snapshot (snapshotFrameForAI)
 
 **Resume Analysis:**
 - Cached JSON with target roles, skills, industries
@@ -112,7 +112,7 @@ Process each collected job URL individually:
 - **Individual todo tracking** for each job application with real-time progress
 - Application attempts logged in `sessions/<today-date>/applications.log`
 - Success/failure status for each job URL processed
-- Screenshots documenting application completion for each job
+- Snapshots documenting application completion for each job using browser_snapshot (snapshotFrameForAI)
 - Form filling intelligence using semantic field detection
 - Contextual responses to company-specific screening questions
 - Application tracking numbers and confirmation details

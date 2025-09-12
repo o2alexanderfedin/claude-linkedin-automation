@@ -53,12 +53,12 @@ if (!email || !password) {
      - Presence of user profile elements in navigation
      - Absence of login forms or "Sign in" buttons
    - If already authenticated, skip to step 5 (Verify Success)
-   - Take screenshot of current state
+   - Use browser_snapshot (snapshotFrameForAI) to capture current state
 
 2. **Navigate to LinkedIn Login** (if not authenticated):
    - Use browser_navigate to go to https://www.linkedin.com/login
    - Wait for page to fully load
-   - Take screenshot for verification
+   - Use browser_snapshot (snapshotFrameForAI) for verification
 
 3. **Enter Credentials** (if not authenticated):
    - **Load credentials from environment variables first**:
@@ -83,7 +83,7 @@ if (!email || !password) {
      - Absence of login form
      - User profile information visible
    - Extract user details if available (name, title, location)
-   - Take screenshot of logged-in state
+   - Use browser_snapshot (snapshotFrameForAI) to capture logged-in state
 
 6. **Error Handling**:
    - Detect and report login failures
@@ -145,7 +145,7 @@ return {
 - **Always start with authentication check** using the detection logic above
 - Use browser_evaluate to check page state between actions
 - Implement proper wait times for page loads (2-5 seconds)
-- Use browser_take_screenshot at key stages for debugging
+- Use browser_snapshot (snapshotFrameForAI) at key stages for debugging
 - Be robust against minor UI changes in LinkedIn's interface
 - Log all actions with browser_evaluate for audit trail
 - Handle both desktop and mobile LinkedIn layouts

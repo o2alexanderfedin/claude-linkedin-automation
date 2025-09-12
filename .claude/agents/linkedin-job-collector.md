@@ -108,7 +108,7 @@ echo "Collection complete. Total URLs in $OUTPUT_FILE: $TOTAL_URLS"
 
 ## Browser Automation Steps
 
-1. **Take Initial Screenshot**: Verify we're on LinkedIn job search results
+1. **Take Initial Snapshot**: Use browser_snapshot (snapshotFrameForAI) to verify we're on LinkedIn job search results
 2. **Identify Job List Panel**: Locate the scrollable job list container
 3. **Scroll and Load**: Systematically scroll to load all jobs
 4. **Extract URLs**: Collect job URLs from all loaded job cards

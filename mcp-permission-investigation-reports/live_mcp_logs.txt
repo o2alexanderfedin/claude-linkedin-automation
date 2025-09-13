@@ -201,3 +201,182 @@ Node.js v22.14.0
 2025-08-30T04:13:19.357Z [info] [PDF Filler] Message from server: {"jsonrpc":"2.0","id":1320,"error":{"code":-32601,"message":"Method not found"}}
 2025-08-30T04:13:19.357Z [info] [browsermcp] Message from server: {"jsonrpc":"2.0","id":1314,"result":{"resources":[]}}
 2025-08-30T04:13:19.403Z [info] [Control your Mac] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":1329}
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-linkedin-mcp.log <==
+2025-09-12T21:24:57.768Z [linkedin-mcp] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp.log <==
+2025-09-12T21:24:57.767Z [info] [linkedin-mcp] Shutting down server...
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-browsermcp.log <==
+2025-09-12T21:24:57.773Z [browsermcp] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Filesystem.log <==
+2025-09-12T21:24:57.776Z [Filesystem] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Read and Write Apple Notes.log <==
+2025-09-12T21:24:57.843Z [Read and Write Apple Notes] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-PDF Filler.log <==
+2025-09-12T21:24:57.888Z [PDF Filler] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Read and Send iMessages.log <==
+2025-09-12T21:24:57.887Z [Read and Send iMessages] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Control your Mac.log <==
+2025-09-12T21:24:57.946Z [Control your Mac] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Control Chrome.log <==
+2025-09-12T21:24:57.987Z [Control Chrome] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Control your Mac.log <==
+2025-09-12T21:24:57.987Z [Control your Mac] [info] Server transport closed (intentional shutdown) { metadata: undefined }
+2025-09-12T21:24:57.987Z [Control your Mac] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Filesystem.log <==
+2025-09-12T21:24:57.842Z [Filesystem] [info] Server transport closed (intentional shutdown) { metadata: undefined }
+2025-09-12T21:24:57.842Z [Filesystem] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-PDF Filler.log <==
+2025-09-12T21:24:57.945Z [PDF Filler] [info] Server transport closed (intentional shutdown) { metadata: undefined }
+2025-09-12T21:24:57.945Z [PDF Filler] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Read and Write Apple Notes.log <==
+2025-09-12T21:24:57.886Z [Read and Write Apple Notes] [info] Server transport closed (intentional shutdown) { metadata: undefined }
+2025-09-12T21:24:57.887Z [Read and Write Apple Notes] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp.log <==
+2025-09-12T21:24:57.769Z [info] [linkedin-mcp] Client transport closed
+2025-09-12T21:24:57.773Z [info] [browsermcp] Shutting down server...
+2025-09-12T21:24:57.773Z [info] [browsermcp] Client transport closed
+2025-09-12T21:24:57.773Z [info] [Filesystem] Shutting down server...
+2025-09-12T21:24:57.776Z [info] [Filesystem] Client transport closed
+2025-09-12T21:24:57.842Z [info] [Filesystem] Server transport closed (intentional shutdown)
+2025-09-12T21:24:57.842Z [info] [Filesystem] Client transport closed
+2025-09-12T21:24:57.843Z [info] [Read and Write Apple Notes] Shutting down server...
+2025-09-12T21:24:57.843Z [info] [Read and Write Apple Notes] Client transport closed
+2025-09-12T21:24:57.886Z [info] [Read and Write Apple Notes] Server transport closed (intentional shutdown)
+2025-09-12T21:24:57.887Z [info] [Read and Write Apple Notes] Client transport closed
+2025-09-12T21:24:57.887Z [info] [Read and Send iMessages] Shutting down server...
+2025-09-12T21:24:57.887Z [info] [Read and Send iMessages] Client transport closed
+2025-09-12T21:24:57.888Z [info] [PDF Filler] Shutting down server...
+2025-09-12T21:24:57.888Z [info] [PDF Filler] Client transport closed
+2025-09-12T21:24:57.945Z [info] [PDF Filler] Server transport closed (intentional shutdown)
+2025-09-12T21:24:57.945Z [info] [PDF Filler] Client transport closed
+2025-09-12T21:24:57.945Z [info] [Control your Mac] Shutting down server...
+2025-09-12T21:24:57.946Z [info] [Control your Mac] Client transport closed
+2025-09-12T21:24:57.987Z [info] [Control your Mac] Server transport closed (intentional shutdown)
+2025-09-12T21:24:57.987Z [info] [Control your Mac] Client transport closed
+2025-09-12T21:24:57.987Z [info] [Control Chrome] Shutting down server...
+2025-09-12T21:24:57.987Z [info] [Control Chrome] Client transport closed
+2025-09-12T21:24:58.027Z [info] [Control Chrome] Server transport closed (intentional shutdown)
+2025-09-12T21:24:58.027Z [info] [Control Chrome] Client transport closed
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Control Chrome.log <==
+2025-09-12T21:24:58.027Z [Control Chrome] [info] Server transport closed (intentional shutdown) { metadata: undefined }
+2025-09-12T21:24:58.027Z [Control Chrome] [info] Client transport closed { metadata: undefined }
+2025-09-12T21:24:58.105Z [Control Chrome] [info] Server transport closed { metadata: undefined }
+2025-09-12T21:24:58.105Z [Control Chrome] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Control your Mac.log <==
+2025-09-12T21:24:58.105Z [Control your Mac] [info] Server transport closed { metadata: undefined }
+2025-09-12T21:24:58.105Z [Control your Mac] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Filesystem.log <==
+2025-09-12T21:24:58.098Z [Filesystem] [info] Server transport closed { metadata: undefined }
+2025-09-12T21:24:58.099Z [Filesystem] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-PDF Filler.log <==
+2025-09-12T21:24:58.103Z [PDF Filler] [info] Server transport closed { metadata: undefined }
+2025-09-12T21:24:58.103Z [PDF Filler] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Read and Write Apple Notes.log <==
+2025-09-12T21:24:58.102Z [Read and Write Apple Notes] [info] Server transport closed { metadata: undefined }
+2025-09-12T21:24:58.102Z [Read and Write Apple Notes] [info] Client transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp.log <==
+2025-09-12T21:24:58.099Z [info] [Filesystem] Server transport closed
+2025-09-12T21:24:58.099Z [info] [Filesystem] Client transport closed
+2025-09-12T21:24:58.102Z [info] [Read and Write Apple Notes] Server transport closed
+2025-09-12T21:24:58.102Z [info] [Read and Write Apple Notes] Client transport closed
+2025-09-12T21:24:58.103Z [info] [PDF Filler] Server transport closed
+2025-09-12T21:24:58.103Z [info] [PDF Filler] Client transport closed
+2025-09-12T21:24:58.105Z [info] [Control your Mac] Server transport closed
+2025-09-12T21:24:58.105Z [info] [Control your Mac] Client transport closed
+2025-09-12T21:24:58.105Z [info] [Control Chrome] Server transport closed
+2025-09-12T21:24:58.105Z [info] [Control Chrome] Client transport closed
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-browsermcp.log <==
+2025-09-12T21:24:57.773Z [browsermcp] [info] Shutting down server... { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Control Chrome.log <==
+2025-09-12T21:24:57.987Z [Control Chrome] [info] Shutting down server... { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Control your Mac.log <==
+2025-09-12T21:24:57.945Z [Control your Mac] [info] Shutting down server... { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Filesystem.log <==
+2025-09-12T21:24:57.773Z [Filesystem] [info] Shutting down server... { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-linkedin-mcp.log <==
+2025-09-12T21:24:57.766Z [linkedin-mcp] [info] Shutting down server... { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-PDF Filler.log <==
+2025-09-12T21:24:57.888Z [PDF Filler] [info] Shutting down server... { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Read and Send iMessages.log <==
+2025-09-12T21:24:57.887Z [Read and Send iMessages] [info] Shutting down server... { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Read and Write Apple Notes.log <==
+2025-09-12T21:24:57.843Z [Read and Write Apple Notes] [info] Shutting down server... { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Control your Mac.log <==
+2025-09-12T21:24:58.206Z [Control your Mac] [info] Server transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp.log <==
+2025-09-12T21:24:58.207Z [info] [Control your Mac] Server transport closed
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Control Chrome.log <==
+2025-09-12T21:24:58.208Z [Control Chrome] [info] Server transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-PDF Filler.log <==
+2025-09-12T21:24:58.209Z [PDF Filler] [info] Server transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Read and Write Apple Notes.log <==
+2025-09-12T21:24:58.210Z [Read and Write Apple Notes] [info] Server transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-Filesystem.log <==
+2025-09-12T21:24:58.211Z [Filesystem] [info] Server transport closed { metadata: undefined }
+
+==> /Users/alexanderfedin/Library/Logs/Claude/mcp-server-browsermcp.log <==
+Exception in PromiseRejectCallback:
+file:///Users/alexanderfedin/.npm/_npx/6ddf87659f2ad8a4/node_modules/@browsermcp/mcp/dist/index.js:252
+  };
+  ^
+
+RangeError: Maximum call stack size exceeded
+
+Exception in PromiseRejectCallback:
+file:///Users/alexanderfedin/.npm/_npx/6ddf87659f2ad8a4/node_modules/@browsermcp/mcp/dist/index.js:249
+    await server.close();
+                 ^
+
+RangeError: Maximum call stack size exceeded
+
+file:///Users/alexanderfedin/.npm/_npx/6ddf87659f2ad8a4/node_modules/@browsermcp/mcp/dist/index.js:248
+  server.close = async () => {
+                 ^
+
+RangeError: Maximum call stack size exceeded
+    at server.close (file:///Users/alexanderfedin/.npm/_npx/6ddf87659f2ad8a4/node_modules/@browsermcp/mcp/dist/index.js:248:18)
+    at server.close (file:///Users/alexanderfedin/.npm/_npx/6ddf87659f2ad8a4/node_modules/@browsermcp/mcp/dist/index.js:249:18)
+    at server.close (file:///Users/alexanderfedin/.npm/_npx/6ddf87659f2ad8a4/node_modules/@browsermcp/mcp/dist/index.js:249:18)
+    at server.close (file:///Users/alexanderfedin/.npm/_npx/6ddf87659f2ad8a4/node_modules/@browsermcp/mcp/dist/index.js:249:18)
+    at server.close (file:///Users/alexanderfedin/.npm/_npx/6ddf87659f2ad8a4/node_modules/@browsermcp/mcp/dist/index.js:249:18)
+    at server.close (file:///Users/alexanderfedin/.npm/_npx/6ddf87659f2ad8a4/node_modules/@browsermcp/mcp/dist/index.js:249:18)
+    at server.close (file:///Users/alexanderfedin/.npm/_npx/6ddf87659f2ad8a4/node_modules/@browsermcp/mcp/dist/index.js:249:18)
+    at server.close (file:///Users/alexanderfedin/.npm/_npx/6ddf87659f2ad8a4/node_modules/@browsermcp/mcp/dist/index.js:249:18)
+    at server.close (file:///Users/alexanderfedin/.npm/_npx/6ddf87659f2ad8a4/node_modules/@browsermcp/mcp/dist/index.js:249:18)
+    at server.close (file:///Users/alexanderfedin/.npm/_npx/6ddf87659f2ad8a4/node_modules/@browsermcp/mcp/dist/index.js:249:18)
+
+Node.js v22.13.1
